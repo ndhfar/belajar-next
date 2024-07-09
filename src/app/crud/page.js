@@ -14,7 +14,7 @@ export default async function Home() {
       <AddNotes />
       <section className="space-y-3">
         {data.map((item) => {
-          return <CardNotes item={item} />;
+          return <CardNotes item={item} key={item._id} />;
         })}
       </section>
     </main>

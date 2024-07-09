@@ -20,7 +20,7 @@ export const CardNotes = ({ item }) => {
 
   return (
     <div className="bg-blue-100 p-2 rounded-md space-y-3">
-      <p key={item._id}>{item.notes}</p>
+      <p>{item.notes}</p>
       <Button onClick={handleDeleteNotes}>Delete</Button>
     </div>
   );
