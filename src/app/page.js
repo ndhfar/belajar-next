@@ -6,6 +6,7 @@ export default function Home() {
     <div className="p-10 space-x-2 font-semibold ">
       <LinkTemplate direct="/props-drilling" fileName="Props Drilling" />
       <LinkTemplate direct="/crud" fileName="CRUD" />
+      <LinkTemplate direct="/server-actions" fileName="Server Actions" />
     </div>
   );
 }
