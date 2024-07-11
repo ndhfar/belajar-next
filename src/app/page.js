@@ -8,6 +8,7 @@ export default function Home() {
       <LinkTemplate direct="/crud" fileName="CRUD" />
       <LinkTemplate direct="/server-actions" fileName="Server Actions" />
       <LinkTemplate direct="/belajar-database" fileName="Database" />
+      <LinkTemplate direct="/register" fileName="Register" />
     </div>
   );
 }
